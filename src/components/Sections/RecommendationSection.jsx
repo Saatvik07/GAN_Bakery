@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
-import { DividerTypes } from '../types/componetPropTypes/divider';
+import { DividerTypes } from '../../types/componetPropTypes/divider';
 import { useSelector } from 'react-redux';
-import { getRecommendations } from '../utils/recommendationUtils';
-import Divider from './Divider';
-import ProductList from './Products/ProductList';
+import { getRecommendations } from '../../utils/recommendationUtils';
+import Divider from '../UI/Divider';
+import ProductList from '../Products/ProductList';
 
 function RecommendationSection() {
 	const cart = useSelector((state) => state.cart);

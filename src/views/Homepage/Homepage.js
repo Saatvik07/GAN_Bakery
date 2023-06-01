@@ -1,7 +1,7 @@
 import React from 'react';
 import TopBanner from '../../components/TopBanner/TopBanner';
 import CartButton from '../../components/Button/CartButton';
-import ProductSection from '../../components/Products/ProductSection';
+import ProductSection from '../../components/Sections/ProductSection';
 
 function Homepage() {
 	return (

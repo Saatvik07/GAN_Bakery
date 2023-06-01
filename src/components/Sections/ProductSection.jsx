@@ -1,8 +1,8 @@
 import React from 'react';
 import { products } from '../../utils/data';
 import { DividerTypes } from '../../types/componetPropTypes/divider';
-import Divider from '../Divider';
-import ProductList from './ProductList';
+import Divider from '../UI/Divider';
+import ProductList from '../Products/ProductList';
 
 function ProductSection() {
 	return (

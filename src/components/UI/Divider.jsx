@@ -1,9 +1,9 @@
 import React from 'react';
-import Cupcake from '../assets/cupcake.png';
-import CartIcon from '../assets/cart.png';
-import RecommendationIcon from '../assets/bookmark.png';
-import ReviewIcon from '../assets/favourite.png';
-import { DividerTypes } from '../types/componetPropTypes/divider';
+import Cupcake from '../../assets/cupcake.png';
+import CartIcon from '../../assets/cart.png';
+import RecommendationIcon from '../../assets/bookmark.png';
+import ReviewIcon from '../../assets/favourite.png';
+import { DividerTypes } from '../../types/componetPropTypes/divider';
 function Divider({ type }) {
 	return (
 		<div className='flex items-center w-4/5 md:w-2/3 lg:w-3/4 lg:my-10 mt-10 mb-5'>
