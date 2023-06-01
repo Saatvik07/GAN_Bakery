@@ -13,7 +13,7 @@ function RecommendationSection() {
 
 	return (
 		<div className='mt-16 flex flex-col items-center relative w-full md:w-11/12'>
-			<h2 className='text-textColor font-heading font-semibold text-3xl'>
+			<h2 className='text-textColor font-heading font-semibold text-2xl lg:text-3xl xl:text-4xl'>
 				RECOMMENDED PRODUCTS
 			</h2>
 			<Divider type={DividerTypes.RECOMMENDATION} />

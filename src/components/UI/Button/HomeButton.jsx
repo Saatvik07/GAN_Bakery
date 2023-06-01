@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeIcon from '../../assets/home.png';
+import HomeIcon from '../../../assets/home.png';
 import { useNavigate } from 'react-router-dom';
 function HomeButton() {
 	const navigate = useNavigate();
@@ -15,7 +15,7 @@ function HomeButton() {
 			>
 				<img src={HomeIcon} alt='home' className='w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8' />
 				{/*
-          <a href="https://www.flaticon.com/free-icons/homepage" title="homepage icons">Homepage icons created by Tempo_doloe - Flaticon</a>
+          			<a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Freepik - Flaticon</a>
 				*/}
 			</button>
 		</div>

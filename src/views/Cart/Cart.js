@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeButton from '../../components/Button/HomeButton';
+import HomeButton from '../../components/UI/Button/HomeButton';
 import CartSection from '../../components/Sections/CartSection';
 import RecommendationSection from '../../components/Sections/RecommendationSection';
 

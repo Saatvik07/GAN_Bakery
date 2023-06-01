@@ -26,7 +26,7 @@ const TopBannerItemList = [
 
 function TopBanner() {
 	return (
-		<div className='absolute left-1/2 top-16 -translate-x-1/2 w-11/12 p-4 flex flex-wrap items-center justify-between bg-accent-100 shadow-lg'>
+		<div className='absolute left-1/2 top-12 md:top-16 lg:top-20 -translate-x-1/2 w-11/12 p-1 md:p-2 lg:p-4 flex flex-wrap items-center justify-between bg-accent-100 shadow-lg'>
 			{TopBannerItemList.map((item, index) => {
 				return (
 					<TopBannerCard

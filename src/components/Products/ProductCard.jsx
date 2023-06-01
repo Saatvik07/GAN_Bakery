@@ -13,7 +13,7 @@ function ProductCard({ id, image, title, description, price }) {
 		dispatch(addToCart({ id, quantity: 1 }));
 	};
 	return (
-		<div className='flex flex-col justify-center basis-3/5 sm:basis-1/3 lg:basis-1/5 mx-2 sm:mx-3 my-10 relative hover:shadow-2xl transition-all !duration-200'>
+		<div className='flex flex-col justify-center basis-3/5 sm:basis-1/3 lg:basis-1/5 mx-1 my-10 relative hover:shadow-2xl transition-all !duration-200'>
 			<img className='w-full h-56 md:h-60 lg:h-64' src={image} alt={title} />
 			<div className='pt-2 md:pt-3 xl:pt-4 px-2 md:px-3 xl:px-4 pb-6 xl:pb-8 flex flex-col items-center justify-center border-black border border-opacity-50'>
 				<h1 className='text-base md:text-lg font-bold text-textColor font-banner-heading mb-2'>

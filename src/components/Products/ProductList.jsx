@@ -3,7 +3,7 @@ import ProductCard from './ProductCard';
 
 function ProductList({ products }) {
 	return (
-		<div className='w-full md:w-11/12 xl:w-4/5 mb-24 flex flex-wrap flex-none grow-0 items-start justify-evenly p-5'>
+		<div className='w-full xl:w-4/5 mb-24 flex flex-wrap items-start justify-evenly p-5'>
 			{products.map((product, index) => {
 				return (
 					<ProductCard
