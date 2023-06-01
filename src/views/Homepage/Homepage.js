@@ -8,7 +8,7 @@ function Homepage() {
 		<div className='bg-background relative'>
 			<div className='h-[200px] bg-background-dark'></div>
 			<TopBanner />
-			<div className='mt-28 flex flex-col items-center'>
+			<div className='mt-96 lg:mt-80 xl:mt-44 flex flex-col items-center'>
 				<h2 className='text-textColor font-heading font-semibold text-3xl'>NEW PRODUCTS</h2>
 				<Divider />
 				<ProductList />
