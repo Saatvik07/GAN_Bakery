@@ -13,7 +13,7 @@ function CartButton() {
 	return (
 		<div className='fixed right-4 bottom-4 md:right-8 md:bottom-8 lg:right-12 lg:bottom-12'>
 			<button
-				className=' bg-accent-100 rounded-full p-3 md:p-4 lg:p-5 relative'
+				className=' bg-accent-100 rounded-full p-3 md:p-4 lg:p-5 relative shadow-xl'
 				onClick={onCartButtonClick}
 			>
 				{cart.length > 0 ? (

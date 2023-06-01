@@ -26,7 +26,7 @@ function CartItem({ id }) {
 				<img
 					src={product.image}
 					alt={product.title}
-					className='hidden sm:visible sm:w-[10%] md:w-1/6 lg:w-[10%] xl:w-1/12 h-auto'
+					className='hidden sm:block sm:w-[10%] md:w-1/6 lg:w-[10%] xl:w-1/12 h-auto'
 				/>
 				<div className='w-3/4 md:w-2/3 lg:w-3/4 flex items-center ml-2 md:ml-4 lg:ml-6 xl:ml-8 justify-between'>
 					<div className='w-full flex flex-col'>
@@ -37,7 +37,7 @@ function CartItem({ id }) {
 					</div>
 					<QuantityCounter id={id} type={QuantityCounterTypes.CART} />
 				</div>
-				<div className='w-1/4 sm:w-[10%] md:w-1/6 flex items-center justify-center'>
+				<div className='w-1/4 sm:w-[15%] md:w-1/6 flex items-center justify-center'>
 					<span className='text-textColor font-body font-bold text-sm sm:text-base  md:text-lg xl:text-xl'>
 						${product.price * itemQuantity}
 					</span>
