@@ -1,6 +1,6 @@
 import React from 'react';
 import TopBanner from '../../components/TopBanner/TopBanner';
-import CartButton from '../../components/Button/CartButton';
+import CartButton from '../../components/UI/Button/CartButton';
 import ProductSection from '../../components/Sections/ProductSection';
 
 function Homepage() {

@@ -31,7 +31,7 @@ export const getItemQuantityFromCart = (cart = [], id = 0) => {
  * @returns {string}
  */
 export const getShortenedCartLength = (cart = []) => {
-	const length = cart.length;
+	const length = getTotalQuantity(cart);
 	if (length > 9) {
 		return '9+';
 	}

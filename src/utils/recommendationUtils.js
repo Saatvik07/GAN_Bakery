@@ -14,5 +14,5 @@ export const getRecommendations = (cart) => {
 	const recommendations = products.filter((product) => {
 		return !productIdsInCart.includes(product.id);
 	});
-	return recommendations.slice(0, 3);
+	return recommendations.slice(0, 4);
 };

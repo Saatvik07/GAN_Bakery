@@ -12,7 +12,7 @@ function RecommendationSection() {
 	}, [cart]);
 
 	return (
-		<div className='mt-16 flex flex-col items-center relative w-full md:w-11/12 xl:w-4/5'>
+		<div className='mt-16 flex flex-col items-center relative w-full md:w-11/12'>
 			<h2 className='text-textColor font-heading font-semibold text-3xl'>
 				RECOMMENDED PRODUCTS
 			</h2>

@@ -1,8 +1,8 @@
 import React from 'react';
-import CartIcon from '../../assets/cart.png';
+import CartIcon from '../../../assets/cart.png';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { getShortenedCartLength } from '../../utils/cartUtils';
+import { getShortenedCartLength } from '../../../utils/cartUtils';
 function CartButton() {
 	const cart = useSelector((state) => state.cart);
 	const navigate = useNavigate();
