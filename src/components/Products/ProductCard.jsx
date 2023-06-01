@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../../store/slices/cartSlice';
 import { doesItemExistInCart } from '../../utils/cartUtils';
 import QuantityCounter from './QuantityCounter';
+import { QuantityCounterTypes } from '../../types/componetPropTypes/quantityCounter copy';
 
 function ProductCard({ id, image, title, description, price }) {
 	const dispatch = useDispatch();
@@ -22,7 +23,7 @@ function ProductCard({ id, image, title, description, price }) {
 				<p className='text-textColor text-base md:text-lg font-body'>$ {price}</p>
 			</div>
 			{doesItemExistInCart(cart, id) ? (
-				<QuantityCounter id={id} />
+				<QuantityCounter id={id} type={QuantityCounterTypes.HOMEPAGE} />
 			) : (
 				<button
 					className='w-4/5 bg-accent-100 text-textColor font-body font-bold p-2 rounded-md absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 border-textColor border hover:bg-textColor hover:text-accent-100 transition-colors !duration-500'

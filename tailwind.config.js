@@ -7,11 +7,15 @@ module.exports = {
 				background: '#f8f9fa',
 				'background-dark': '#e8e8e4',
 				'accent-100': '#f8edeb',
+				'accent-200': '#ffd7ba',
 			},
 			fontFamily: {
 				'banner-heading': ['Courgette', 'cursive'],
 				heading: ['Oswald', 'sans-serif'],
 				body: ['Itim', 'cursive'],
+			},
+			fontSize: {
+				'2xs': '0.5rem',
 			},
 		},
 	},
