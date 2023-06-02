@@ -41,6 +41,8 @@ The src folder contains all the source code
 
 ![image](https://github.com/Saatvik07/GAN_Bakery/assets/55968934/0b2df62c-721b-415c-bc3d-3436ae22c35b)
 
+![image](https://github.com/Saatvik07/GAN_Bakery/assets/55968934/c69029ce-f306-4508-aa2a-7671a9e5bf18)
+
 2. Cart
 
 ![image](https://github.com/Saatvik07/GAN_Bakery/assets/55968934/16e3edd7-3877-4225-a483-d44036e6eb32)
